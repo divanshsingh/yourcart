@@ -1,0 +1,44 @@
+.home{
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.productCard{
+    width: 200px;
+    background-color: $tertiary;
+    margin: 2rem;
+    border-radius: 5px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s;
+    &:hover{
+        scale: 1.1;
+    }
+
+    >img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    >button{
+        border: none;
+        background-color: $secondary;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 0.8rem;
+        color: $tertiary;
+        width: 100%;
+        margin-top: 15px;
+        font-weight: 500;
+        &:hover{
+            opacity: 0.8;
+        }
+
+    }
+}

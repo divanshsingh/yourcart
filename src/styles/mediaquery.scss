@@ -1,0 +1,37 @@
+@media screen and (max-width:820px) {
+    
+    .cart{
+        grid-template-columns: 1fr;
+    
+    
+        > aside{
+            padding: 0 2rem 4rem 2rem;
+            border-radius: 0;
+    
+            >h2{
+                margin: 0.5rem;
+                font: 100 1rem "Roboto";
+            }
+        }
+    }
+    
+    .cartItem{
+        padding: 0 0.5rem;
+        grid-template-columns: 2fr 2fr 1fr 1fr;
+
+        >article{
+            >h3{
+                font-size: 0.9rem;
+            }
+        }
+    
+    
+        .btns{
+    
+            >button{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
